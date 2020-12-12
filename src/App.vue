@@ -38,19 +38,21 @@
     </v-app-bar>
 
     <v-main>
-      <BoasVindas/>
+      <BoasVindas/><Listagem/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import BoasVindas from './components/BoasVindas';
+import Listagem from './components/Listagem';
 
 export default {
   name: 'App',
 
   components: {
     BoasVindas,
+    Listagem
   },
 
   data: () => ({
