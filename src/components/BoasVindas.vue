@@ -27,11 +27,11 @@
     </v-navigation-drawer>
     <v-container>
       <h2 class="text-h5 text-center mb-3 mt-5">Bem vindos!</h2>
-      <div class="bg-imagem">
+      <div class="bg-img">
         <v-img
-          class="inicio-imagem mb-4"
+          class="inicio-imagem"
           style="width: 150px"
-          src="https://images.vexels.com/media/users/3/127090/isolated/preview/a608267cdd6ada5e7d294c4b01c92d40-astonished-santa-claus-face-by-vexels.png"
+          src="../assets/images/noel.png"
         >
         </v-img>
       </div>
@@ -46,26 +46,21 @@
     </v-container>
   </v-app>
 </template>
+
 <script>
 export default {
-<<<<<<< HEAD
-  name: "BoasVindas",
-=======
-  name: 'App',
+  name: "App",
   data() {
     return {
       drawer: false,
       group: null,
-    }
-  }
->>>>>>> 6f1023977a080b91d4eefef7aafb98f0473fdb00
+    };
+  },
 };
 </script>
+
 <style scoped>
-<<<<<<< HEAD
-=======
-.bg-imagem{
-  text-align: center;
+.bg-img {
+  align-items: center;
 }
->>>>>>> 6f1023977a080b91d4eefef7aafb98f0473fdb00
 </style>
