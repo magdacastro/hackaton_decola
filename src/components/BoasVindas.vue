@@ -26,11 +26,11 @@
       </v-list>
     </v-navigation-drawer>
     <v-container>
-      <h2 class="text-h5 text-center mb-3 mt-5">Bem vindos!</h2>
+      <h2 class="text-center mb-3 mt-5" style="font-size: 45px">Bem vindos!</h2>
       <div class="bg-img">
         <v-img
           class="inicio-imagem"
-          style="width: 150px"
+          style="width: 300px; right: -450px; margin-bottom: 25px"
           src="../assets/images/noel.png"
         >
         </v-img>
@@ -60,7 +60,5 @@ export default {
 </script>
 
 <style scoped>
-.bg-img {
-  align-items: center;
-}
+/* */
 </style>
