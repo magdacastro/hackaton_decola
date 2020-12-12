@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Listagem />
+    <Listagem/>
     <BoasVindas />
   </div>
 </template>
